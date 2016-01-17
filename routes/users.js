@@ -1,9 +1,15 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+var mongoose = require('mongoose');
+var userSchema = mongoose.Schema({
+    local : {
+        username: String,
+        password: String
+    },
+    facebook: {
+        id : String,
+        token: String,
+        name: String,
+       email: String,
+    }
 });
-
-module.exports = router;
+ 
+ module.exports = mongoose.model('User', userSchema);

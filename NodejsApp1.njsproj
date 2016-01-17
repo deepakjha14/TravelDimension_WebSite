@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43ab7b86-f768-4e63-9077-80718306cbae}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>auth\passport.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Content Include="mobirise-free-bootstrap-template\license.txt" />
+    <Content Include="mobirise-free-bootstrap-template\blog.html" />
+    <Content Include="mobirise-free-bootstrap-template\index.html" />
+    <Content Include="mobirise-free-bootstrap-template\one-page.html" />
+    <Content Include="mobirise-free-bootstrap-template\slider.html" />
+    <Content Include="mobirise-free-bootstrap-template\video-background.html" />
+    <Compile Include="auth\fbAuth.js" />
+    <Compile Include="auth\passport.js" />
+    <Compile Include="config\database.js" />
+    <Compile Include="routes\index.js" />
+    <Compile Include="routes\users.js" />
+    <Content Include="TravelDimension_WebSite\README.md" />
+    <Content Include="views\index.html" />
+    <Content Include="views\successPage.html" />
+    <Content Include="views\loginPage.html" />
+    <Content Include="views\error.jade" />
+    <Content Include="views\index.jade" />
+    <Content Include="views\layout.jade" />
+    <Content Include="mobirise-free-bootstrap-template\assets\animate.css\animate.min.css" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\bootstrap-carousel-swipe\bootstrap-carousel-swipe.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\anemone-350x350-67.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\bytafont-350x350-38.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\calculator-350x350-78.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\chrome-remote-desktop-350x350-23.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\clear-350x350-99.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\com-350x350-41.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\discover-mobile-350x350-16.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\discover-mobile-350x350-53.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\facebook-350x350-71.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\google-slides-350x350-16.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\kindle-350x350-47.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\maps-350x350-26.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-350x350-12.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\photos-350x350-95.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\reminders-350x350-18.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\workflow-350x350-59.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\youtube-350x350-69.png" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\blog-2511x1670-3.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\blog-2511x1670-64.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\coffee-923094-1920-1920x1280-16.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\imac-605421-1920-1920x1275-41.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1032784-1920-1920x1440-16.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067975-1920-1920x1439-11-1920x1439-53.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067975-1920-1920x1439-11.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067975-1920-1920x1439-26.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067975-1920-1920x1439-5.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067982-1920-1920x1439-68-1920x1439-47.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067982-1920-1920x1439-68.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067982-1920-1920x1439-71.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067982-1920-1920x1439-90.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067983-1920-1920x1440-44-1920x1440-62.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067983-1920-1920x1440-44.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067988-1920-1920x1440-18.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067991-1920-1920x1440-29.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067991-1920-1920x1440-38.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067991-1920-1920x1440-57-1920x1440-37.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-1067991-1920-1920x1440-57.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458150-1920-1920x1285-73.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458150-1920-1920x1285-95.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458151-1920-1920x1285-18.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458151-1920-1920x1285-67.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458153-1920-1920x1285-12.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-6-458153-1920-1920x1285-16.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\iphone-926663-1920-1920x1280-94.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\macbook-926425-1920-1920x1279-92.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\one-page-2509x1670-22.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\one-page-2509x1670-67.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052021-1920-1920x1440-16-1920x1440-18.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052021-1920-1920x1440-16.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052021-1920-1920x1440-38-1920x1440-69.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052021-1920-1920x1440-38.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052022-1920-1920x1440-95-1920x1440-47.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052022-1920-1920x1440-95.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052023-1920-1920x1440-26-1920x1440-71.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\phone-1052023-1920-1920x1440-26.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\slider-2511x1674-11.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\slider-2511x1674-33.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\video-bg-2510x1672-73.jpg" />
+    <Content Include="mobirise-free-bootstrap-template\assets\images\video-bg-2510x1672-94.jpg" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\imagesloaded\imagesloaded.pkgd.min.js" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\jarallax\jarallax.js" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\jquery\jquery.min.js" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\jquery-mb-ytplayer\jquery.mb.YTPlayer.min.js" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\masonry\masonry.pkgd.min.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\mobirise-gallery\style.css" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\mobirise-gallery\script.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\mobirise-slider\style.css" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\smooth-scroll\SmoothScroll.js" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\social-likes\social-likes.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="mobirise-free-bootstrap-template\assets\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\mobirise\css\mbr-additional.css" />
+    <Content Include="mobirise-free-bootstrap-template\assets\mobirise\css\style.css" />
+    <Compile Include="mobirise-free-bootstrap-template\assets\mobirise\js\script.js" />
+    <Content Include="mobirise-free-bootstrap-template\assets\socicon\css\socicon.min.css" />
+    <Content Include="mobirise-free-bootstrap-template\assets\socicon\fonts\socicon.svg" />
+    <Compile Include="public\javascripts\bootstrap.min.js" />
+    <Content Include="public\stylesheets\bootstrap.min.css" />
+    <Content Include="public\stylesheets\style.css" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="auth" />
+    <Folder Include="bin" />
+    <Folder Include="mobirise-free-bootstrap-template" />
+    <Folder Include="mobirise-free-bootstrap-template\assets" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\animate.css" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\bootstrap" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\bootstrap\css" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\bootstrap\fonts" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\bootstrap\js" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\bootstrap-carousel-swipe" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\images" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\imagesloaded" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\jarallax" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\jquery" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\jquery-mb-ytplayer" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\masonry" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\mobirise" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\mobirise\css" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\mobirise\js" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\mobirise-gallery" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\mobirise-slider" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\smooth-scroll" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\social-likes" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\socicon" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\socicon\css" />
+    <Folder Include="mobirise-free-bootstrap-template\assets\socicon\fonts" />
+    <Folder Include="config\" />
+    <Folder Include="public" />
+    <Folder Include="public\images" />
+    <Folder Include="public\javascripts" />
+    <Folder Include="public\stylesheets" />
+    <Folder Include="routes" />
+    <Folder Include="TravelDimension_WebSite" />
+    <Folder Include="views" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
